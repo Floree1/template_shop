@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio de Sesión</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Inicio de Sesión</h2>
+      <label>
+        <span>Correo Electronico</span>
+        <input id="se" type="email" required />
+      </label>
+      <label>
+        <span>Password</span>
+        <input id="sp" type="password" required />
+      </label>
+      <button class="submit" onclick="login()" type="button">Iniciar Sesion</button>
+      <p class="forgot-pass">Perdiste la Contraseña ?</p>
+
+      <div class="social-media">
+        <ul>
+          <li><img src="assets/img-login/facebook.png"></li>
+          <li><img src="assets/img-login/twitter.png"></li>
+          <li><img src="assets/img-login/linkedin.png"></li>
+          <li><img src="assets/img-login/instagram.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>Eres Nuevo?</h2>
+          <p>Registrate a la plataforma de <br>videojuegos de LatinoAmerica!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>Ya eres usuario de la plataforma?</h2>
+          <p>Si ya tienes una cuenta, solo inicia sesión. Te hemos extrañado!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Registrar</span>
+          <span class="m-in">Login</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Registrar Nueva Cuenta</h2>
+        <label>
+          <span>Usuario</span>
+          <input type="name">
+        </label>
+        <label>
+          <span>Correo Electronico</span>
+          <input id="re" type="email" required />
+        </label>
+        <label>
+          <span>Password</span>
+          <input id="rp" type="password" required />
+        </label>
+        <label>
+          <span>Confirmar Password</span>
+          <input id="rrp" type="password" required />
+        </label>
+        <button type="button" onclick="register()" class="submit">Registrar</button>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
