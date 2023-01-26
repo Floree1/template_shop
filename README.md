@@ -1,2 +1,2 @@
 # template_shop
-Index template estilo netflix
+Pagina inicio shop al estilo netflix
